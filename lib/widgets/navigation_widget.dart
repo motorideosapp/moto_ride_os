@@ -555,7 +555,7 @@ class _NavigationWidgetState extends State<NavigationWidget> {
     if (widget.currentPosition == null) return;
 
     // IMPORTANT: REPLACE "YOUR_GOOGLE_API_KEY" with your actual Google Cloud API key
-    const String googleApiKey = 'AIzaSyC9A7yEkm1hANYgtkqn4QQ71HTMGznKILc';
+    const String googleApiKey = 'Api_key_here';
     final LatLng origin = LatLng(widget.currentPosition!.latitude, widget.currentPosition!.longitude);
     final String url = 'https://maps.googleapis.com/maps/api/directions/json?origin=${origin.latitude},${origin.longitude}&destination=${destination.latitude},${destination.longitude}&key=$googleApiKey&language=tr';
 
