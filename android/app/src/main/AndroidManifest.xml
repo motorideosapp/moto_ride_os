@@ -37,7 +37,7 @@
 
         <!-- !! SONUNDA EKLENDİ: Google Haritalar API Anahtarı !! -->
         <meta-data android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyC9A7yEkm1hANYgtkqn4QQ71HTMGznKILc"/>
+            android:value="Api_key_here"/>
 
         <activity
             android:name=".MainActivity"
