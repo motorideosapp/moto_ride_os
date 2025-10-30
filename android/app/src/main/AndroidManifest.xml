@@ -1,0 +1,89 @@
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- TEMEL İZİNLER -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+
+    <!-- ÇAĞRI VE TELEFON İZİNLERİ -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.READ_CALL_LOG"/>
+    <uses-permission android:name="android.permission.WRITE_CALL_LOG"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+
+    <!-- BLUETOOTH İZİNLERİ -->
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" android:usesPermissionFlags="neverForLocation" />
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <!-- MÜZİK VE SES İZNİ -->
+    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+
+    <!-- MİKROFON İZNİ -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <!-- DİĞER KRİTİK İZİNLER -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <!-- !! EKLENDİ: Android 11+ için Ses Tanıma Servisi Sorgusu !! -->
+    <queries>
+        <intent>
+            <action android:name="android.speech.RecognitionService" />
+        </intent>
+    </queries>
+
+    <application
+        android:label="Moto Ride OS"
+        android:name="${applicationName}"
+        android:icon="@mipmap/ic_launcher">
+
+        <!-- Google Haritalar API Anahtarı -->
+        <meta-data android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyC9A7yEkm1hANYgtkqn4QQ71HTMGznKILc"/>
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:theme="@style/LaunchTheme"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+            android:hardwareAccelerated="true"
+            android:windowSoftInputMode="adjustResize"
+            android:showWhenLocked="true"
+            android:turnScreenOn="true">
+
+            <meta-data
+                android:name="io.flutter.embedding.android.NormalTheme"
+                android:resource="@style/NormalTheme"
+                />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <!-- flutter_callkit_incoming için gerekli BroadcastReceiver -->
+        <receiver
+            android:name="com.incoming.call.CallkitIncomingBroadcastReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.incoming.call.ACTION_CALL_INCOMING" />
+                <action android:name="com.incoming.call.ACTION_CALL_START" />
+                <action android:name="com.incoming.call.ACTION_CALL_ACCEPT" />
+                <action android:name="com.incoming.call.ACTION_CALL_DECLINE" />
+                <action android:name="com.incoming.call.ACTION_CALL_ENDED" />
+                <action android:name="com.incoming.call.ACTION_CALL_TIMEOUT" />
+            </intent-filter>
+        </receiver>
+
+        <meta-data
+            android:name="flutterEmbedding"
+            android:value="2" />
+    </application>
+</manifest>
