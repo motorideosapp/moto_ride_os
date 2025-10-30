@@ -1,0 +1,64 @@
+name: moto_ride_os
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+2
+
+environment:
+  sdk: '>=3.4.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: any
+
+  # Original Dependencies
+  cupertino_icons: ^1.0.6
+  google_maps_flutter: ^2.6.1
+  geolocator: ^12.0.0
+  http: ^1.2.1
+  weather: ^3.1.1
+  flutter_svg: ^2.0.10+1
+  permission_handler: ^11.3.1
+  vector_math: ^2.1.4
+  provider: ^6.1.2
+  shared_preferences: ^2.2.3
+  call_log: any
+  url_launcher: any
+  wakelock_plus: any
+  connectivity_plus: any
+  device_info_plus: any
+  flutter_blue_plus: any
+  path_provider: any
+  audioplayers: any
+  lottie: ^3.3.1
+  geocoding: ^3.0.0
+  flutter_polyline_points: ^2.0.0
+  maps_toolkit: ^3.0.0
+
+  # For speech-to-text functionality
+  speech_to_text: ^7.3.0
+
+  # For text-to-speech functionality
+  flutter_tts: ^3.8.5
+
+  # Core package for detecting call state
+  phone_state: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+  assets:
+    - assets/
+    - assets/images/
+    - assets/l10n/
+    - assets/map_styles/dark_mode.json
+    - assets/map_styles/light_mode.json
+    - assets/config.json
