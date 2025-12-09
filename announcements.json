@@ -1,0 +1,33 @@
+{
+  "active": true,
+  "id": "campaign_2024_newyear",
+  "target": "all", // "free", "premium", "all"
+  "show_once": false, // true: Bir kere göster, false: Hep göster
+  "content": {
+    "tr": {
+      "title": "Mutlu Yıllar! 🎉",
+      "message": "Premium özelliklerde %50 indirim fırsatı!",
+      "button_text": "İncele",
+      "url": "https://play.google.com/..."
+    },
+    "fr": {
+  "title": "Bonne année ! 🎉",
+  "message": "Profitez de 50 % de réduction sur les fonctionnalités Premium !",
+  "button_text": "Voir",
+  "url": "https://play.google.com/..."
+}
+    "de": {
+  "title": "Frohes Neues Jahr! 🎉",
+  "message": "Sichern Sie sich 50 % Rabatt auf Premium-Funktionen!",
+  "button_text": "Ansehen",
+  "url": "https://play.google.com/..."
+}	
+    "en": {
+      "title": "Happy New Year! 🎉",
+      "message": "50% Discount on Premium features!",
+      "button_text": "Check it out",
+      "url": "https://play.google.com/..."
+    }
+  },
+  "image_url": "https://seninsiten.com/images/newyear.png"
+}
