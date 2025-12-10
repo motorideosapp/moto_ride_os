@@ -1,22 +1,22 @@
-{
-  "active": true,
-  "id": "campaign_2024_newyear",
-  "target": "all", // "free", "premium", "all"
-  "show_once": false, // true: Bir kere göster, false: Hep göster
-  "content": {
-    "tr": {
-      "title": "Mutlu Yıllar! 🎉",
-      "message": "Premium özelliklerde %50 indirim fırsatı!",
-      "button_text": "İncele",
-      "url": "https://play.google.com/..."
+[
+  {
+    "active": true,
+    "id": "campaign_2024_newyear",
+    "target": "all",
+    "show_once": false,
+    "content": {
+      "tr": {
+        "title": "Mutlu Yıllar! 🎉",
+        "message": "Premium özelliklerde %50 indirim fırsatı!",
+        "button_text": "İncele",
+        "url": "https://play.google.com/store/apps/details?id=com.example.moto_ride_os"
+      },
+      "en": {
+        "title": "Happy New Year! 🎉",
+        "message": "50% Discount on Premium features!",
+        "button_text": "Check it out",
+        "url": "https://play.google.com/store/apps/details?id=com.example.moto_ride_os"
+      }
     },
-    "en": {
-      "title": "Happy New Year! 🎉",
-      "message": "50% Discount on Premium features!",
-      "button_text": "Check it out",
-      "url": "https://play.google.com/..."
-    }
-  },
-  "image_url": "https://seninsiten.com/images/newyear.png"
-}
-
+    "image_url": "https://raw.githubusercontent.com/motorideosapp/moto_ride_os/main/assets/images/promo.png"
+  }
