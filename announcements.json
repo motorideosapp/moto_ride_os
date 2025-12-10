@@ -4,7 +4,7 @@
     "id": "promo_newyear_free_v1",
     "target": "free",
     "show_once": false,
-    "image_url": "https://raw.githubusercontent.com/motorideosapp/moto_ride_os/refs/heads/main/20.png",
+    "image_url": "https://github.com/motorideosapp/moto_ride_os/blob/main/512.png?raw=true",
     "content": {
       "tr": {
         "title": "Premium'a Geçin! 🚀",
@@ -37,7 +37,7 @@
     "id": "update_info_premium_v1",
     "target": "premium",
     "show_once": false,
-    "image_url": "https://github.com/motorideosapp/moto_ride_os/blob/main/happy.png?raw=true",
+    "image_url": "https://github.com/motorideosapp/moto_ride_os/blob/main/512.png?raw=true",
     "content": {
       "tr": {
         "title": "Yeni Özellikler! ✨",
@@ -66,4 +66,5 @@
     }
   }
 ]
+
 
