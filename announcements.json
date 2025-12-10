@@ -1,23 +1,68 @@
 [
   {
     "active": true,
-    "id": "campaign_2024_newyear",
-    "target": "all",
+    "id": "promo_newyear_free_v1",
+    "target": "free",
     "show_once": false,
+    "image_url": "https://raw.githubusercontent.com/motorideosapp/moto_ride_os/main/assets/images/promo.png",
     "content": {
       "tr": {
-        "title": "Mutlu Yıllar! 🎉",
-        "message": "Premium özelliklerde %50 indirim fırsatı!",
+        "title": "Premium'a Geçin! 🚀",
+        "message": "Reklamları kaldırın, Cyberpunk temasını ve Sesli Asistanı açın. Şimdi %50 indirimli!",
         "button_text": "İncele",
         "url": "https://play.google.com/store/apps/details?id=com.example.moto_ride_os"
       },
       "en": {
-        "title": "Happy New Year! 🎉",
-        "message": "50% Discount on Premium features!",
+        "title": "Go Premium! 🚀",
+        "message": "Remove ads, unlock Cyberpunk theme & Voice Assistant. 50% OFF now!",
         "button_text": "Check it out",
         "url": "https://play.google.com/store/apps/details?id=com.example.moto_ride_os"
+      },
+      "de": {
+        "title": "Werde Premium! 🚀",
+        "message": "Entfernen Sie Werbung, schalten Sie Cyberpunk-Thema frei. Jetzt 50% Rabatt!",
+        "button_text": "Ansehen",
+        "url": "https://play.google.com/store/apps/details?id=com.example.moto_ride_os"
+      },
+      "fr": {
+        "title": "Passez Premium! 🚀",
+        "message": "Supprimez les pubs, débloquez le thème Cyberpunk. 50% de réduction !",
+        "button_text": "Voir",
+        "url": "https://play.google.com/store/apps/details?id=com.example.moto_ride_os"
       }
-    },
-    "image_url": "https://raw.githubusercontent.com/motorideosapp/moto_ride_os/main/assets/images/promo.png"
+    }
+  },
+  {
+    "active": true,
+    "id": "update_info_premium_v1",
+    "target": "premium",
+    "show_once": false,
+    "image_url": "https://raw.githubusercontent.com/motorideosapp/moto_ride_os/main/assets/images/update.png",
+    "content": {
+      "tr": {
+        "title": "Yeni Özellikler! ✨",
+        "message": "Premium kullanıcılarımıza özel 'Grup Sürüşü' ve 'Canlı Konum' özellikleri yakında geliyor. Takipte kalın!",
+        "button_text": "Harika",
+        "url": null
+      },
+      "en": {
+        "title": "New Features! ✨",
+        "message": "Exclusive 'Group Ride' & 'Live Location' features coming soon for Premium users. Stay tuned!",
+        "button_text": "Great",
+        "url": null
+      },
+      "de": {
+        "title": "Neue Funktionen! ✨",
+        "message": "'Gruppenfahrt' und 'Live-Standort' kommen bald für Premium-Nutzer. Bleiben Sie dran!",
+        "button_text": "Toll",
+        "url": null
+      },
+      "fr": {
+        "title": "Nouvelles Fonctionnalités! ✨",
+        "message": "'Balade en groupe' et 'Localisation en direct' arrivent bientôt. Restez à l'écoute !",
+        "button_text": "Super",
+        "url": null
+      }
+    }
   }
 ]
