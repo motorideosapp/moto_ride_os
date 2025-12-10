@@ -4,7 +4,7 @@
     "id": "promo_2024_newyear_free",
     "target": "free", 
     "show_once": false,
-    "image_url": "https://www.yeniisfikirleri.net/wp-content/uploads/2019/09/indirim-nasil-yapilir-7.png",
+    "image_url": "x.png",
     "content": {
       "tr": {
         "title": "Yeni Yıl İndirimi! 🎉",
@@ -31,7 +31,7 @@
     "id": "msg_2024_newyear_premium",
     "target": "premium",
     "show_once": true,
-    "image_url": "https://www.yeniisfikirleri.net/wp-content/uploads/2019/09/indirim-nasil-yapilir-7.png",
+    "image_url": "x.png",
     "content": {
       "tr": {
         "title": "Mutlu Yıllar Şampiyon! 🏍️",
@@ -48,6 +48,7 @@
     }
   }
 ]
+
 
 
 
