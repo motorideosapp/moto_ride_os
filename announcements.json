@@ -1,55 +1,21 @@
-[
-  {
-    "active": true,
-    "id": "promo_2024_newyear_free",
-    "target": "free", 
-    "show_once": false,
-    "image_url": "x.png",
-    "content": {
-      "tr": {
-        "title": "Yeni Yıl İndirimi! 🎉",
-        "message": "Premium özelliklerde %50 indirim. Kaçırmayın!",
-        "button_text": "İncele",
-        "url": "https://play.google.com/..."
-      },
-      "en": {
-        "title": "New Year Sale! 🎉",
-        "message": "50% OFF on Premium features. Don't miss out!",
-        "button_text": "Check it out",
-        "url": "https://play.google.com/..."
-      },
-      "de": {
-        "title": "Neujahrsangebot! 🎉",
-        "message": "50% Rabatt auf Premium-Funktionen.",
-        "button_text": "Ansehen",
-        "url": "https://play.google.com/..."
-      }
+{
+  "active": true,
+  "id": "campaign_2024_newyear",
+  "target": "all", // "free", "premium", "all"
+  "show_once": true, // true: Bir kere göster, false: Hep göster
+  "content": {
+    "tr": {
+      "title": "Mutlu Yıllar! 🎉",
+      "message": "Premium özelliklerde %50 indirim fırsatı!",
+      "button_text": "İncele",
+      "url": "https://play.google.com/..."
+    },
+    "en": {
+      "title": "Happy New Year! 🎉",
+      "message": "50% Discount on Premium features!",
+      "button_text": "Check it out",
+      "url": "https://play.google.com/..."
     }
   },
-  {
-    "active": true,
-    "id": "msg_2024_newyear_premium",
-    "target": "premium",
-    "show_once": true,
-    "image_url": "x.png",
-    "content": {
-      "tr": {
-        "title": "Mutlu Yıllar Şampiyon! 🏍️",
-        "message": "Premium ailemizin bir parçası olduğun için teşekkürler. Yeni yılda keyifli sürüşler!",
-        "button_text": "Teşekkürler",
-        "url": null 
-      },
-      "en": {
-        "title": "Happy New Year Rider! 🏍️",
-        "message": "Thanks for being part of our Premium family. Safe rides in the new year!",
-        "button_text": "Thanks",
-        "url": null
-      }
-    }
-  }
-]
-
-
-
-
-
+  "image_url": "https://seninsiten.com/images/newyear.png"
+}
