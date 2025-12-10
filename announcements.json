@@ -2,7 +2,7 @@
   "active": true,
   "id": "campaign_2024_newyear",
   "target": "all", // "free", "premium", "all"
-  "show_once": true, // true: Bir kere göster, false: Hep göster
+  "show_once": false, // true: Bir kere göster, false: Hep göster
   "content": {
     "tr": {
       "title": "Mutlu Yıllar! 🎉",
@@ -19,3 +19,4 @@
   },
   "image_url": "https://seninsiten.com/images/newyear.png"
 }
+
