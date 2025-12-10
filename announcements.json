@@ -4,7 +4,7 @@
     "id": "promo_2024_newyear_free",
     "target": "free", 
     "show_once": false,
-    "image_url": "https://seninsiten.com/images/sale_banner.png",
+    "image_url": "https://toptancamasir.com/images/feature_variant/127/yuzdeelliindirim.png",
     "content": {
       "tr": {
         "title": "Yeni Yıl İndirimi! 🎉",
@@ -31,7 +31,7 @@
     "id": "msg_2024_newyear_premium",
     "target": "premium",
     "show_once": true,
-    "image_url": "https://seninsiten.com/images/happy_new_year.png",
+    "image_url": "https://i.pinimg.com/1200x/ac/c4/bf/acc4bf2bd9d56926ab0c3547ae636f3c.jpg",
     "content": {
       "tr": {
         "title": "Mutlu Yıllar Şampiyon! 🏍️",
@@ -48,3 +48,4 @@
     }
   }
 ]
+
