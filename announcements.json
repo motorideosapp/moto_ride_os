@@ -4,29 +4,29 @@
     "id": "promo_newyear_free_v1",
     "target": "free",
     "show_once": false,
-    "image_url": "https://raw.githubusercontent.com/motorideosapp/moto_ride_os/main/assets/images/promo.png",
+    "image_url": "https://raw.githubusercontent.com/motorideosapp/moto_ride_os/refs/heads/main/20.png",
     "content": {
       "tr": {
         "title": "Premium'a Geçin! 🚀",
-        "message": "Reklamları kaldırın, Cyberpunk temasını ve Sesli Asistanı açın. Şimdi %50 indirimli!",
+        "message": "Reklamları kaldırın, Cyberpunk temasını ve Sesli Asistanı açın. Şimdi %20 indirimli!",
         "button_text": "İncele",
         "url": "https://play.google.com/store/apps/details?id=com.example.moto_ride_os"
       },
       "en": {
         "title": "Go Premium! 🚀",
-        "message": "Remove ads, unlock Cyberpunk theme & Voice Assistant. 50% OFF now!",
+        "message": "Remove ads, unlock Cyberpunk theme & Voice Assistant. 20% OFF now!",
         "button_text": "Check it out",
         "url": "https://play.google.com/store/apps/details?id=com.example.moto_ride_os"
       },
       "de": {
         "title": "Werde Premium! 🚀",
-        "message": "Entfernen Sie Werbung, schalten Sie Cyberpunk-Thema frei. Jetzt 50% Rabatt!",
+        "message": "Entfernen Sie Werbung, schalten Sie Cyberpunk-Thema frei. Jetzt 20% Rabatt!",
         "button_text": "Ansehen",
         "url": "https://play.google.com/store/apps/details?id=com.example.moto_ride_os"
       },
       "fr": {
         "title": "Passez Premium! 🚀",
-        "message": "Supprimez les pubs, débloquez le thème Cyberpunk. 50% de réduction !",
+        "message": "Supprimez les pubs, débloquez le thème Cyberpunk. 20% de réduction !",
         "button_text": "Voir",
         "url": "https://play.google.com/store/apps/details?id=com.example.moto_ride_os"
       }
@@ -37,7 +37,7 @@
     "id": "update_info_premium_v1",
     "target": "premium",
     "show_once": false,
-    "image_url": "https://raw.githubusercontent.com/motorideosapp/moto_ride_os/main/assets/images/update.png",
+    "image_url": "https://github.com/motorideosapp/moto_ride_os/blob/main/happy.png?raw=true",
     "content": {
       "tr": {
         "title": "Yeni Özellikler! ✨",
@@ -66,3 +66,4 @@
     }
   }
 ]
+
