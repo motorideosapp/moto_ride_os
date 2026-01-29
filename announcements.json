@@ -4,29 +4,29 @@
     "id": "promo_newyear_free_v1",
     "target": "free",
     "show_once": false,
-    "image_url": "https://raw.githubusercontent.com/motorideosapp/moto_ride_os/refs/heads/main/512.png",
+    "image_url": "https://raw.githubusercontent.com/motorideosapp/moto_ride_os/refs/heads/main/p512.png",
     "content": {
       "tr": {
         "title": "Premium'a Geçin! 🚀",
-        "message": "Reklamları kaldırın, Cyberpunk temasını ve Sesli Asistanı açın. Şimdi %20 indirimli!",
+        "message": "Reklamları kaldırın, Cyberpunk temasını ve Sesli Asistanı açın.",
         "button_text": "İncele",
         "url": "https://play.google.com/store/apps/details?id=com.example.moto_ride_os"
       },
       "en": {
         "title": "Go Premium! 🚀",
-        "message": "Remove ads, unlock Cyberpunk theme & Voice Assistant. 20% OFF now!",
+        "message": "Remove ads, unlock Cyberpunk theme & Voice Assistant.",
         "button_text": "Check it out",
         "url": "https://play.google.com/store/apps/details?id=com.example.moto_ride_os"
       },
       "de": {
         "title": "Werde Premium! 🚀",
-        "message": "Entfernen Sie Werbung, schalten Sie Cyberpunk-Thema frei. Jetzt 20% Rabatt!",
+        "message": "Entfernen Sie Werbung, schalten Sie Cyberpunk-Thema frei.",
         "button_text": "Ansehen",
         "url": "https://play.google.com/store/apps/details?id=com.example.moto_ride_os"
       },
       "fr": {
         "title": "Passez Premium! 🚀",
-        "message": "Supprimez les pubs, débloquez le thème Cyberpunk. 20% de réduction !",
+        "message": "Supprimez les pubs, débloquez le thème Cyberpunk.",
         "button_text": "Voir",
         "url": "https://play.google.com/store/apps/details?id=com.example.moto_ride_os"
       }
@@ -37,35 +37,36 @@
     "id": "update_info_premium_v1",
     "target": "premium",
     "show_once": false,
-    "image_url": "https://raw.githubusercontent.com/motorideosapp/moto_ride_os/refs/heads/main/512.png",
+    "image_url": "https://raw.githubusercontent.com/motorideosapp/moto_ride_os/refs/heads/main/p512.png",
     "content": {
       "tr": {
         "title": "Yeni Özellikler! ✨",
-        "message": "Premium kullanıcılarımıza özel 'Grup Sürüşü' ve 'Canlı Konum' özellikleri yakında geliyor. Takipte kalın!",
+        "message": "Premium Özelliklere Sahip Moto Ride Os Uygulamasına Hoşgeldiniz Yeni Gelecek Özelliklere . Güvenli sürüşler Dileriz!",
         "button_text": "Harika",
         "url": null
       },
       "en": {
         "title": "New Features! ✨",
-        "message": "Exclusive 'Group Ride' & 'Live Location' features coming soon for Premium users. Stay tuned!",
+        "message": "Welcome to the Moto Ride OS app with Premium features. New features are coming soon. We wish you safe rides!",
         "button_text": "Great",
         "url": null
       },
       "de": {
         "title": "Neue Funktionen! ✨",
-        "message": "'Gruppenfahrt' und 'Live-Standort' kommen bald für Premium-Nutzer. Bleiben Sie dran!",
+        "message": "Willkommen bei der Moto Ride OS App mit Premium-Funktionen. Neue Funktionen werden bald verfügbar sein. Wir wünschen Ihnen eine sichere Fahrt!",
         "button_text": "Toll",
         "url": null
       },
       "fr": {
         "title": "Nouvelles Fonctionnalités! ✨",
-        "message": "'Balade en groupe' et 'Localisation en direct' arrivent bientôt. Restez à l'écoute !",
+        "message": "Bienvenue dans l’application Moto Ride OS avec des fonctionnalités Premium. De nouvelles fonctionnalités arriveront bientôt. Nous vous souhaitons une conduite en toute sécurité !",
         "button_text": "Super",
         "url": null
       }
     }
   }
 ]
+
 
 
 
