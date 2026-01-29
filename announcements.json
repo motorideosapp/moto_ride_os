@@ -41,31 +41,32 @@
     "content": {
       "tr": {
         "title": "Yeni Özellikler! ✨",
-        "message": "Premium Özelliklere Sahip Moto Ride Os Uygulamasına Hoşgeldiniz Yeni Gelecek Özelliklere . Güvenli sürüşler Dileriz!",
+        "message": "Premium Özelliklere Sahip Moto Ride Os Uygulamasına Hoşgeldiniz. Güvenli sürüşler Dileriz!",
         "button_text": "Harika",
         "url": null
       },
       "en": {
         "title": "New Features! ✨",
-        "message": "Welcome to the Moto Ride OS app with Premium features. New features are coming soon. We wish you safe rides!",
+        "message": "Welcome to the Moto Ride OS app with Premium features. We wish you safe rides!",
         "button_text": "Great",
         "url": null
       },
       "de": {
         "title": "Neue Funktionen! ✨",
-        "message": "Willkommen bei der Moto Ride OS App mit Premium-Funktionen. Neue Funktionen werden bald verfügbar sein. Wir wünschen Ihnen eine sichere Fahrt!",
+        "message": "Willkommen bei der Moto Ride OS App mit Premium-Funktionen. Wir wünschen Ihnen eine sichere Fahrt!",
         "button_text": "Toll",
         "url": null
       },
       "fr": {
         "title": "Nouvelles Fonctionnalités! ✨",
-        "message": "Bienvenue dans l’application Moto Ride OS avec des fonctionnalités Premium. De nouvelles fonctionnalités arriveront bientôt. Nous vous souhaitons une conduite en toute sécurité !",
+        "message": "Bienvenue dans l’application Moto Ride OS avec des fonctionnalités Premium. Nous vous souhaitons une conduite en toute sécurité !",
         "button_text": "Super",
         "url": null
       }
     }
   }
 ]
+
 
 
 
