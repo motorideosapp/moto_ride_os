@@ -33,7 +33,7 @@
     }
   },
   {
-    "active": true,
+    "active": false,
     "id": "update_info_premium_v1",
     "target": "premium",
     "show_once": false,
