@@ -1,74 +1,23 @@
 [
   {
     "active": true,
-    "id": "promo_newyear_free_v1",
-    "target": "free",
-    "show_once": false,
-    "image_url": "https://raw.githubusercontent.com/motorideosapp/moto_ride_os/refs/heads/main/p512.png",
-    "content": {
-      "tr": {
-        "title": "Premium'a Geçin! 🚀",
-        "message": "Reklamları kaldırın, Cyberpunk temasını ve Sesli Asistanı açın.",
-        "button_text": "İncele",
-        "url": "https://play.google.com/store/apps/details?id=com.example.moto_ride_os"
-      },
-      "en": {
-        "title": "Go Premium! 🚀",
-        "message": "Remove ads, unlock Cyberpunk theme & Voice Assistant.",
-        "button_text": "Check it out",
-        "url": "https://play.google.com/store/apps/details?id=com.example.moto_ride_os"
-      },
-      "de": {
-        "title": "Werde Premium! 🚀",
-        "message": "Entfernen Sie Werbung, schalten Sie Cyberpunk-Thema frei.",
-        "button_text": "Ansehen",
-        "url": "https://play.google.com/store/apps/details?id=com.example.moto_ride_os"
-      },
-      "fr": {
-        "title": "Passez Premium! 🚀",
-        "message": "Supprimez les pubs, débloquez le thème Cyberpunk.",
-        "button_text": "Voir",
-        "url": "https://play.google.com/store/apps/details?id=com.example.moto_ride_os"
-      }
-    }
-  },
-  {
-    "active": false,
-    "id": "update_info_premium_v1",
+    "id": "announcement_c8b66f7a-e1c3-4e53-96f0-0aa4847b57d0",
     "target": "premium",
-    "show_once": false,
-    "image_url": "https://raw.githubusercontent.com/motorideosapp/moto_ride_os/refs/heads/main/p512.png",
+    "show_once": true,
+    "image_url": "https://github.com/motorideosapp/moto_ride_os/blob/main/new%20update.jpg?raw=true",
     "content": {
       "tr": {
-        "title": "Yeni Özellikler! ✨",
-        "message": "Premium Özelliklere Sahip Moto Ride Os Uygulamasına Hoşgeldiniz. Güvenli sürüşler Dileriz!",
-        "button_text": "Harika",
-        "url": null
+        "title": "Yeni Güncelleme Çok Yakında",
+        "message": "Yeni Dikey Tema\nYeni Yakıt Radarı\nYeni Müzik Çalar\nve fazlası...",
+        "button_text": "yakında",
+        "url": "https://play.google.com/store/apps/details?id=com.motorideos.app"
       },
       "en": {
-        "title": "New Features! ✨",
-        "message": "Welcome to the Moto Ride OS app with Premium features. We wish you safe rides!",
-        "button_text": "Great",
-        "url": null
-      },
-      "de": {
-        "title": "Neue Funktionen! ✨",
-        "message": "Willkommen bei der Moto Ride OS App mit Premium-Funktionen. Wir wünschen Ihnen eine sichere Fahrt!",
-        "button_text": "Toll",
-        "url": null
-      },
-      "fr": {
-        "title": "Nouvelles Fonctionnalités! ✨",
-        "message": "Bienvenue dans l’application Moto Ride OS avec des fonctionnalités Premium. Nous vous souhaitons une conduite en toute sécurité !",
-        "button_text": "Super",
-        "url": null
+        "title": " New Version Coming Very Soon...",
+        "message": "New Vertical Theme\nNew Fuel Radar\nNew Music Player\nand more...",
+        "url": "https://play.google.com/store/apps/details?id=com.motorideos.app",
+        "button_text": "coming soon"
       }
     }
   }
 ]
-
-
-
-
-
-
