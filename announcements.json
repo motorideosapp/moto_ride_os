@@ -3,7 +3,7 @@
     "active": true,
     "id": "announcement_78405e66-18c5-4c13-8092-450e5eadc502",
     "target": "all",
-    "show_once": false,
+    "show_once": true,
     "image_url": "https://github.com/motorideosapp/moto_ride_os/blob/main/newupdate.png?raw=true",
     "content": {
       "tr": {
